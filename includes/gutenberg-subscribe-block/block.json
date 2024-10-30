@@ -1,0 +1,78 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "mailing/subscribe",
+	"title": "Subscribe Form",
+	"icon": "index-card",
+	"category": "widgets",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h2"
+		},
+		"caption": {
+			"type": "string",
+			"source": "html",
+			"selector": "div.caption"
+		},
+		"group": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "input[name='group']",
+			"attribute": "value"
+		},
+		"emailPlaceholder": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "input[name='email']",
+			"attribute": "placeholder"
+		},
+		"submitText": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "input[type='submit']",
+			"attribute": "value"
+		},
+		"confirmationPlaceholder": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "input[name='code']",
+			"attribute": "placeholder"
+		},
+		"footer": {
+			"type": "string",
+			"source": "html",
+			"selector": ".mailingSubscribe div.footer"
+		},
+		"confirmation": {
+			"type": "string",
+			"source": "html",
+			"selector": ".mailingSubscribeConfirm div.caption"
+		},
+		"confirmationFooter": {
+			"type": "string",
+			"source": "html",
+			"selector": ".mailingSubscribeConfirm div.footer"
+		},
+		"subscribedText": {
+			"type": "string",
+			"source": "html",
+			"selector": ".mailingSubscribed"
+		},
+		"skin": {
+			"type": "string",
+			"source": "attribute",
+			"selector": ".mailing-subscribe-form",
+			"attribute": "data-skin"
+		}
+	},
+	"example": {
+		"attributes": {
+			"title": "Subscribe to Newsletter",
+			"caption": "Get in touch with us"
+		}
+	},
+	"editorScript": "file:../../assets/gutenberg/subscribe.js",
+	"style": "file:../../assets/gutenberg/subscribe.css"
+}

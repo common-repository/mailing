@@ -1,0 +1,251 @@
+# Copyright (C) 2022 mailing
+# This file is distributed under the same license as the mailing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: mailing\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-16 21:54+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/newsletters.php:17
+msgid "Targeting"
+msgstr ""
+
+#: admin/newsletters.php:23
+msgid "Newsletter status"
+msgstr ""
+
+#: admin/newsletters.php:42
+msgid "Preparing email body"
+msgstr ""
+
+#: admin/newsletters.php:48
+msgid "Sending email"
+msgstr ""
+
+#: admin/newsletters.php:61
+msgid "Newsletter is paused"
+msgstr ""
+
+#: admin/newsletters.php:64
+msgid "Newsletter is finished"
+msgstr ""
+
+#: admin/newsletters.php:70
+msgid "Targets"
+msgstr ""
+
+#: admin/newsletters.php:74, admin/newsletters.php:197
+msgid "Sent"
+msgstr ""
+
+#: admin/newsletters.php:78
+msgid "Views"
+msgstr ""
+
+#: admin/newsletters.php:82
+msgid "Resume"
+msgstr ""
+
+#: admin/newsletters.php:91
+msgid "Group"
+msgstr ""
+
+#: admin/newsletters.php:93
+msgid "All groups"
+msgstr ""
+
+#: admin/newsletters.php:94
+msgid "No group"
+msgstr ""
+
+#: admin/newsletters.php:113
+msgid "Send"
+msgstr ""
+
+#: admin/newsletters.php:195, admin/subscriptions.php:136
+msgid "Status"
+msgstr ""
+
+#: admin/newsletters.php:196
+msgid "Audience"
+msgstr ""
+
+#: admin/settings.php:22, admin/settings.php:23, admin/settings.php:28
+msgid "Mailing"
+msgstr ""
+
+#: admin/settings.php:28
+msgid "Mailing Options"
+msgstr ""
+
+#: admin/settings.php:85
+msgid "From:"
+msgstr ""
+
+#: admin/settings.php:93
+msgid "Redirect after confirm:"
+msgstr ""
+
+#: admin/settings.php:102
+msgid "Redirect after unsubscribe:"
+msgstr ""
+
+#: admin/settings.php:108
+msgid "Emails block size:"
+msgstr ""
+
+#: admin/settings.php:113
+msgid "Save Settings"
+msgstr ""
+
+#: admin/subscriptions.php:28, admin/subscriptions.php:50
+msgid "Subscriptions"
+msgstr ""
+
+#: admin/subscriptions.php:32
+msgid "Search"
+msgstr ""
+
+#: admin/subscriptions.php:49
+msgid "Subscription"
+msgstr ""
+
+#: admin/subscriptions.php:98
+msgid "Active"
+msgstr ""
+
+#: admin/subscriptions.php:99
+msgid "Unsubscribed"
+msgstr ""
+
+#: admin/subscriptions.php:135
+msgid "Email"
+msgstr ""
+
+#: admin/subscriptions.php:137
+msgid "Subscription group"
+msgstr ""
+
+#: admin/subscriptions.php:138
+msgid "Date"
+msgstr ""
+
+#: admin/subscriptions.php:159
+msgid "Delete"
+msgstr ""
+
+#: admin/subscriptions.php:168
+msgid "No subscriptions yet"
+msgstr ""
+
+#: admin/subscriptions.php:243
+msgid "Bulk deleted..."
+msgstr ""
+
+#: admin/subscriptions.php:247
+msgid "Email deleted"
+msgstr ""
+
+#: includes/handlers.php:117
+msgid "Wrong email address"
+msgstr ""
+
+#: includes/handlers.php:124
+msgid "Please verify your email for "
+msgstr ""
+
+#: includes/handlers.php:147
+msgid "Wrong confirmation code"
+msgstr ""
+
+#: includes/handlers.php:194
+msgid "We cannot proceed your request at this time. Please use other link."
+msgstr ""
+
+#: includes/newsletters.php:39
+msgid "Body for this newsletter is not ready"
+msgstr ""
+
+#: templates/form-default.php:4
+msgid "Join the List"
+msgstr ""
+
+#: templates/form-default.php:5
+msgid "You will never miss our latest news. Our newsletter is once a week, every Wednesdat."
+msgstr ""
+
+#: templates/form-default.php:6
+msgid "Type your email address"
+msgstr ""
+
+#: templates/form-default.php:7
+msgid "Subscribe"
+msgstr ""
+
+#: templates/form-default.php:9
+msgid "By submitting above, you agree to our "
+msgstr ""
+
+#: templates/form-default.php:9
+msgid "privacy policy"
+msgstr ""
+
+#: templates/form-default.php:12
+msgid "We sent a confirmation code to the email [useremail]. Please use it to confirm your email."
+msgstr ""
+
+#: templates/form-default.php:13
+msgid "Confirmation code"
+msgstr ""
+
+#: templates/form-default.php:15
+msgid "Did not receive the email? Check your spam filter, or "
+msgstr ""
+
+#: templates/form-default.php:15
+msgid "try another email address"
+msgstr ""
+
+#: templates/form-default.php:17
+msgid "Thank you for subscribing!"
+msgstr ""
+
+#: templates/template-confirm.php:20
+msgid "Hi!"
+msgstr ""
+
+#: templates/template-confirm.php:21
+msgid "Thank you for subscribing to our newsletters."
+msgstr ""
+
+#: templates/template-confirm.php:22
+msgid "Your verification code is <strong>%s</strong>."
+msgstr ""
+
+#: templates/template-confirm.php:23
+msgid "Enter this code in confirmation form on our website, or click the link below to confirm your email."
+msgstr ""
+
+#: templates/template-confirm.php:25
+msgid "Confirm email"
+msgstr ""
+
+#: templates/template-confirm.php:27
+msgid "We’re glad you’re here!"
+msgstr ""
+
+#: templates/template-confirm.php:33, templates/template-newsletter.php:30
+msgid "Privacy policy"
+msgstr ""
+
+#: templates/template-newsletter.php:26
+msgid "Unsubscribe"
+msgstr ""
